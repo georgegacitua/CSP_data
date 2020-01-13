@@ -1,4 +1,4 @@
-"Time stamp","PC input energy | (MWt)","PC efficiency: gross","PC electrical power output: gross | (MWe)","PC water consumption: makeup + cooling | (kg/s)","PC HTF inlet temperature | (C)","PC HTF outlet temperature | (C)","Rec. HTF inlet temperature | (C)","Rec. HTF outlet temperature | (C)","Rec. thermal efficiency"
+Time stamp,PC input energy | (MWt),PC efficiency: gross,PC electrical power output: gross | (MWe),PC water consumption: makeup + cooling | (kg/s),PC HTF inlet temperature | (C),PC HTF outlet temperature | (C),Rec. HTF inlet temperature | (C),Rec. HTF outlet temperature | (C),Rec. thermal efficiency
 "Jan 1, 12:00 am",121.359,0.219009,26.5787,16.6285,573.913,290.521,290,0,0
 "Jan 1, 01:00 am",121.359,0.438969,53.2728,33.2063,573.595,290.966,290,0,0
 "Jan 1, 02:00 am",101.315,0.428018,43.3648,27.8274,573.127,290.093,290,0,0
