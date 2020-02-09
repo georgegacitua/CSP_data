@@ -1,82 +1,82 @@
 %%%%	====SUMARY 36MW====	%%%%
 Metric	Value
-Annual energy (year 1)	250,764,784 kWh
-Capacity factor (year 1)	88.4%
-Annual Water Usage	636,926 m^3
-PPA price (year 1)	9.26 ¢/kWh
+Annual energy (year 1)	244,498,464 kWh
+Capacity factor (year 1)	86.1%
+Annual Water Usage	613,666 m^3
+PPA price (year 1)	8.08 ¢/kWh
 PPA price escalation	1.00 %/year
-Levelized PPA price (nominal)	10.37 ¢/kWh
-Levelized PPA price (real)	8.23 ¢/kWh
-Levelized COE (nominal)	9.60 ¢/kWh
-Levelized COE (real)	7.62 ¢/kWh
-Net present value	$18,736,114 
+Levelized PPA price (nominal)	9.06 ¢/kWh
+Levelized PPA price (real)	7.20 ¢/kWh
+Levelized COE (nominal)	8.42 ¢/kWh
+Levelized COE (real)	6.68 ¢/kWh
+Net present value	$15,496,993 
 Internal rate of return (IRR)	11.00 %
 Year IRR is achieved	20 
-IRR at end of project	12.76 %
-Net capital cost	$296,426,368 
-Equity	$137,719,584 
-Size of debt	$158,706,768 
+IRR at end of project	12.75 %
+Net capital cost	$245,886,288 
+Equity	$114,189,024 
+Size of debt	$131,697,264  
 
 %%%%	==== ====	%%%%
 %%%%	====SUMARY 50MW====	%%%%
-Metric,Value
-Annual energy (year 1),339,195,488 kWh
-Capacity factor (year 1),86.0%
-Annual Water Usage,854,511 m^3
-PPA price (year 1),7.93 ¢/kWh
-PPA price escalation,1.00 %/year
-Levelized PPA price (nominal),8.88 ¢/kWh
-Levelized PPA price (real),7.05 ¢/kWh
-Levelized COE (nominal),8.25 ¢/kWh
-Levelized COE (real),6.55 ¢/kWh
-Net present value,$20,970,682 
-Internal rate of return (IRR),11.00 %
-Year IRR is achieved,20 
-IRR at end of project,12.75 %
-Net capital cost,$332,886,080 
-Equity,$154,580,992 
-Size of debt,$178,305,104 
+Metric	Value
+Annual energy (year 1)	337,681,056 kWh
+Capacity factor (year 1)	85.7%
+Annual Water Usage	852,487 m^3
+PPA price (year 1)	7.96 ¢/kWh
+PPA price escalation	1.00 %/year
+Levelized PPA price (nominal)	8.92 ¢/kWh
+Levelized PPA price (real)	7.08 ¢/kWh
+Levelized COE (nominal)	8.29 ¢/kWh
+Levelized COE (real)	6.58 ¢/kWh
+Net present value	$20,974,502 
+Internal rate of return (IRR)	11.00 %
+Year IRR is achieved	20 
+IRR at end of project	12.75 %
+Net capital cost	$332,938,144 
+Equity	$154,605,760 
+Size of debt	$178,332,384 
 
 %%%%	==== ====	%%%%
 
 
 %%%%	====SUMARY 72MW====	%%%%
 Metric	Value
-Annual energy (year 1)	364,799,136 kWh
-Capacity factor (year 1)	64.3%
-Annual Water Usage	923,986 m^3
-PPA price (year 1)	8.37 ¢/kWh
+Annual energy (year 1)	487,649,888 kWh
+Capacity factor (year 1)	85.9%
+Annual Water Usage	1,234,403 m^3
+PPA price (year 1)	7.81 ¢/kWh
 PPA price escalation	1.00 %/year
-Levelized PPA price (nominal)	9.90 ¢/kWh
-Levelized PPA price (real)	7.86 ¢/kWh
-Levelized COE (nominal)	9.22 ¢/kWh
-Levelized COE (real)	7.32 ¢/kWh
-Net present value	$24,503,586 
+Levelized PPA price (nominal)	8.74 ¢/kWh
+Levelized PPA price (real)	6.94 ¢/kWh
+Levelized COE (nominal)	8.12 ¢/kWh
+Levelized COE (real)	6.45 ¢/kWh
+Net present value	$29,548,190 
 Internal rate of return (IRR)	11.00 %
 Year IRR is achieved	20 
 IRR at end of project	12.75 %
-Net capital cost	$389,952,704 
-Equity	$181,011,728 
-Size of debt	$208,940,992 
+Net capital cost	$469,224,032 
+Equity	$217,879,120 
+Size of debt	$251,344,912 
 
 %%%%	==== ====	%%%%
 %%%%	====SUMARY 110MW====	%%%%
 Metric	Value
-Annual energy (year 1)	333,228,096 kWh
-Capacity factor (year 1)	38.4%
-Annual Water Usage	859,128 m^3
-PPA price (year 1)	10.84 ¢/kWh
+Annual energy (year 1)	737,405,184 kWh
+Capacity factor (year 1)	85.0%
+Annual Water Usage	1,886,670 m^3
+PPA price (year 1)	7.82 ¢/kWh
 PPA price escalation	1.00 %/year
-Levelized PPA price (nominal)	13.85 ¢/kWh
-Levelized PPA price (real)	11.00 ¢/kWh
-Levelized COE (nominal)	12.91 ¢/kWh
-Levelized COE (real)	10.25 ¢/kWh
-Net present value	$30,620,202 
+Levelized PPA price (nominal)	8.74 ¢/kWh
+Levelized PPA price (real)	6.94 ¢/kWh
+Levelized COE (nominal)	8.12 ¢/kWh
+Levelized COE (real)	6.45 ¢/kWh
+Net present value	$44,619,980 
 Internal rate of return (IRR)	11.00 %
 Year IRR is achieved	20 
 IRR at end of project	12.75 %
-Net capital cost	$488,370,272 
-Equity	$226,620,784 
-Size of debt	$261,749,488 
+Net capital cost	$708,677,184 
+Equity	$329,058,624 
+Size of debt	$379,618,560 
 
 %%%%	==== ====	%%%%
