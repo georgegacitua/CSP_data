@@ -85,9 +85,9 @@ def autolabel_3(rects,bar_label):
         ax.text(rect.get_x() + rect.get_width()/2., 0.5*height,
                 bar_label[idx].astype(int),
                 ha='center', va='bottom', rotation=0,fontsize= 11)
-        
-#%%
 
+
+#%%
 r_salt_water = np.round(np.array([0, 591300, 0, 7782518, 7064064])/1000, 0)
 sea_water_r = np.round(np.array([0, 212115, 0 , 7782518, 4221474])/1000, 0)
 consumed_water = np.round(np.array([379185, 379185, 14005, 14004, 13811])/1000, 0)
@@ -184,6 +184,56 @@ fig.tight_layout()
 plt.savefig('graphs/lcoe_cases.png', format='png', bbox_inches='tight')
 plt.show()
 
+#%%
+csp_100 = np.round(np.array([22440615, 17106067, 27656414, 22635306])/1000000,1)
+
+csp_75 = np.round(np.array([18112983, 12962619, 23113427, 19946564])/1000000,1)
+csp_50 = np.round(np.array([13785351, 8819172, 18570441, 17257821])/1000000,1)
+csp_25 = np.round(np.array([9457719, 4675724, 14027454, 14569079])/1000000,1)
+csp_0 = np.round(np.array([5130087, 532277, 9484468, 11880336])/1000000,1)
+
+
+indices= cases[1:][1:]
+
+x = np.arange(len(indices))  # the label locations
+width = .19*5  # the width of the bars
+
+fig, ax = plt.subplots(figsize=(14, 7))
+
+mine = ax.bar(x, csp_100, width,
+                   label='Mine Benefit')
+case_a = ax.bar(x - 2*width/5, csp_100, width/5, hatch ='//',
+                alpha=0.6, edgecolor='w',label=r'PPA = $\Delta_B$ + 89.7')
+case_b = ax.bar(x - width/5, csp_75, width/5, hatch ='//',
+                alpha=0.6, edgecolor='w',label=r'PPA = $\Delta_B$ 75% + 89.7')
+case_c = ax.bar(x, csp_50, width/5, hatch ='//',
+                alpha=0.6, edgecolor='w',label=r'PPA = $\Delta_B$ 50% + 89.7')
+case_d = ax.bar(x + width/5, csp_25, width/5, hatch ='//',
+                alpha=0.6, edgecolor='w',label=r'PPA = $\Delta_B$ 25% + 89.7')
+case_e = ax.bar(x + 2*width/5, csp_0, width/5, hatch ='//',
+                alpha=0.6, edgecolor='w',label=r'PPA = 89.7')
+
+# Add some text for labels, title and custom x-axis tick labels, etc.
+ax.set_ylabel('NPV [M USD]', fontsize= 16)
+ax.set_xlabel('Cooling Scenarios', fontsize= 18)
+#ax.set_title('Synergy', fontsize= 28)
+ax.set_xticks(x)
+#ax.set_yticks(np.arange(0, 15, 1))
+#ax.set_ylim(0, 14)
+ax.set_xticklabels(indices, fontsize= 16)
+ax.legend(fontsize= 15)
+ax.grid(axis= 'y')
+
+#autolabel(mine)
+autolabel_2(case_a, csp_100)
+autolabel_2(case_b, csp_75)
+autolabel_2(case_c, csp_50)
+autolabel_2(case_d, csp_25)
+autolabel_2(case_e, csp_0)
+
+fig.tight_layout()
+plt.savefig('graphs/synergy.png', format='png', bbox_inches='tight')
+plt.show()
 
 
 
